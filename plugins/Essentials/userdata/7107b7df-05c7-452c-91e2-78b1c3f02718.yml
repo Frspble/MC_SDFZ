@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 123.178.214.196
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1678889287798
+  login: 1678889066910
+money: '0'
+last-account-name: xiangmu
+logoutlocation:
+  world: 5c460807-f2ae-4474-9e43-24b5f7700642
+  world-name: world
+  x: -152.56278914191623
+  y: 173.0
+  z: 41.06635998274042
+  yaw: -41.09943771362305
+  pitch: 12.749983787536621

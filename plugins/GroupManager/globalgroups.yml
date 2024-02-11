@@ -1,0 +1,362 @@
+# These groups only contain permission nodes.
+#
+# **** You can NOT add anything other than permission nodes ****
+# **** This is NOT where you set up the groups which you give to users! ****
+# **** See 'GroupManager/worlds/worldname/groups.yml' if you want to set the actual groups! ****
+#
+# These collections are to be inherited in your different worlds' groups.yml
+# They can also be added as one of a user's subgroups, but NOT as their primary group.
+# These collections are available to ALL group and user yml's.
+#
+# Customize these groups to fit your needs.
+
+groups:
+
+# Permission nodes for GroupManager
+# by ElgarL, snowleo, continued from gabrielcouto's original
+# https://elgarl.github.io/GroupManager/
+
+  g:groupmanager_default:
+    permissions:
+    - groupmanager.notify.self
+
+  g:groupmanager_moderator:
+    permissions:
+    - groupmanager.listgroups
+    - groupmanager.mandemote
+    - groupmanager.manpromote
+    - groupmanager.manselect
+    - groupmanager.manuadd
+    - groupmanager.manudel
+    - groupmanager.manwhois
+    - groupmanager.notify.other
+
+  g:groupmanager_admin:
+    permissions:
+    - groupmanager.mantogglevalidate
+    - groupmanager.mansave
+    - groupmanager.mangcheckp
+    - groupmanager.manglistp
+    - groupmanager.manucheckp
+    - groupmanager.manulistp
+
+# Permission nodes for CraftBukkit
+# by many devs and contributors
+# http://dl.bukkit.org/
+
+  g:bukkit_default:
+    permissions:
+    - bukkit.broadcast.user
+    - -bukkit.command.plugins
+
+  g:bukkit_moderator:
+    permissions:
+    - minecraft.command.ban
+    - minecraft.command.ban-ip
+    - minecraft.command.gamemode
+    - minecraft.command.kick
+    - minecraft.command.list
+    - minecraft.command.pardon
+    - minecraft.command.pardon-ip
+    - minecraft.command.say
+    - minecraft.command.gamemode.spectator
+    - minecraft.command.gamemode.adventure
+    
+#   g:bukkit_builder:
+#     permissions:
+#     - minecraft.command.gamemode
+#     - minecraft.command.time
+#     - minecraft.command.weather
+    
+  g:bukkit_admin:
+    permissions:
+    - minecraft.command.attribute
+    - minecraft.command.advancement
+    - minecraft.command.clear
+    - minecraft.command.clone
+    - minecraft.command.data
+    - minecraft.command.debug
+    - minecraft.command.difficulty
+    - minecraft.command.enchant
+    - minecraft.command.execute
+    - minecraft.command.fill
+    - minecraft.command.gamerule
+    - minecraft.command.give
+    - minecraft.command.kill
+    - minecraft.command.locate
+    - minecraft.command.me
+    - -minecraft.command.op
+    - minecraft.command.particle
+    - minecraft.command.playsound
+    - minecraft.command.recipe
+    - minecraft.command.setblock
+    - minecraft.command.setworldspawn
+    - minecraft.command.scoreboard
+    - minecraft.command.summon
+    - minecraft.command.spawnpoint
+    - minecraft.command.spreadplayers
+    - minecraft.command.stop
+    - minecraft.command.teleport
+    - minecraft.command.time
+    - minecraft.command.weather
+    - minecraft.command.whitelist
+    - minecraft.command.worldborder
+    - minecraft.command.xp
+    - bukkit.broadcast
+    - bukkit.broadcast.admin
+    - bukkit.command.help
+    - bukkit.command.plugins
+    - bukkit.command.reload
+    - minecraft.command.save-all
+    - minecraft.command.save-on
+    - minecraft.command.save-off
+    - minecraft.command.tell
+    - bukkit.command.version
+
+# Permission nodes for EssentialsX
+# by md678685 
+# https://www.spigotmc.org/resources/essentialsx.9089/
+
+  g:essentials_default:
+    permissions:
+    - essentials.help
+    - essentials.helpop
+    - essentials.list
+    - essentials.motd
+    - essentials.rules
+    - essentials.spawn
+    - essentials.jail.allow.help
+    - essentials.jail.allow.helpop
+    - essentials.jail.allow.rules
+
+  g:essentials_builder:
+    permissions:
+    - essentials.gamemode
+    - essentials.gamemode.creative
+    - essentials.gamemode.spectator
+    - essentials.gamemode.adventure
+    - essentials.gamemode.survival
+    - essentials.weather
+    - essentials.time.set
+    - essentials.afk
+    - essentials.afk.auto
+    - essentials.back
+    - essentials.back.ondeath
+    - essentials.balance
+    - essentials.balance.others
+    - essentials.balancetop
+    - essentials.book
+    - essentials.chat.color
+    - essentials.chat.format
+    - essentials.chat.shout
+    - essentials.chat.question
+    - essentials.compass
+    - essentials.delhome
+    - essentials.depth
+    - essentials.exp
+    - essentials.getpos
+    - essentials.hat
+    - essentials.home
+    - essentials.ignore
+    - essentials.itemdb
+    - essentials.kit
+    - essentials.kits.tools
+    - essentials.mail
+    - essentials.mail.send
+    - essentials.me
+    - essentials.msg
+    - essentials.msg.color
+    - essentials.msg.format
+    - essentials.nick
+    - essentials.pay
+    - essentials.ping
+    - essentials.powertool
+    - essentials.powertooltoggle
+    - essentials.protect
+    - essentials.recipe
+    - essentials.seen
+    - essentials.sethome
+    - essentials.sethome.bed
+    - essentials.sethome.multiple
+    - essentials.signs.use.*
+    - essentials.signs.create.disposal
+    - essentials.signs.create.mail
+    - essentials.signs.create.protection
+    - essentials.signs.create.trade
+    - essentials.signs.break.disposal
+    - essentials.signs.break.mail
+    - essentials.signs.break.protection
+    - essentials.signs.break.trade
+    - essentials.suicide
+    - essentials.time
+    - essentials.tp
+    - essentials.tpaccept
+    - essentials.tpahere
+    - essentials.tpdeny
+    - essentials.warp
+    - essentials.warp.list
+    - essentials.worth
+    - essentials.jail.allow.mail
+    - essentials.jail.allow.ping
+    - essentials.jail.allow.seen
+
+  g:essentials_moderator:
+    permissions:
+    - -essentials.spawner.enderdragon
+    - essentials.afk.kickexempt
+    - essentials.ban
+    - essentials.ban.notify
+    - essentials.banip
+    - essentials.book.title
+    - essentials.book.others
+    - essentials.broadcast
+    - essentials.chat.url
+    - essentials.chat.magic
+    - essentials.clearinventory
+    - essentials.delwarp
+    - essentials.eco.loan
+    - essentials.exp.others
+    - essentials.ext
+    - essentials.fly
+    - essentials.fly.safelogin
+    - essentials.getpos
+    - essentials.getpos.others
+    - essentials.helpop.receive
+    - essentials.home.others
+    - essentials.invsee
+    - essentials.jails
+    - essentials.jump
+    - essentials.kick
+    - essentials.kick.notify
+    - essentials.kill
+    - essentials.kits.*
+    - essentials.msg.magic
+    - essentials.mute
+    - essentials.mute.notify
+    - essentials.nick.color
+    - essentials.nick.others
+    - essentials.realname
+    - essentials.seen.banreason
+    - essentials.seen.extra
+    - essentials.setwarp
+    - essentials.signs.create.*
+    - essentials.signs.break.*
+    - essentials.spawner
+    - essentials.spawner.*
+    - essentials.thunder
+    - essentials.time
+    - essentials.time.set
+    - essentials.protect.alerts
+    - essentials.protect.admin
+    - essentials.protect.ownerinfo
+    - essentials.ptime
+    - essentials.ptime.others
+    - essentials.togglejail
+    - essentials.top
+    - essentials.tp
+    - essentials.tp.others
+    - essentials.tphere
+    - essentials.tppos
+    - essentials.tptoggle
+    - essentials.unban
+    - essentials.unbanip
+    - essentials.vanish
+    - essentials.vanish.effect
+    - essentials.warps.*
+    - essentials.weather
+    - essentials.whois
+    - essentials.workbench
+    - essentials.world
+    - essentials.worlds.*
+    - essentials.jail.allow.jails
+    - essentials.jail.allow.togglejail
+
+  g:essentials_admin:
+    permissions:
+    - -essentials.backup
+    - -essentials.essentials
+    - -essentials.setspawn
+    - -essentials.reloadall
+    - -essentials.plugin
+    - essentials.*
+
+# Permission nodes for Towny by Llmdl
+# https://www.spigotmc.org/resources/towny-advanced.72694/
+# Materials https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
+  g:towny_default:
+    permissions:
+    - towny.chat.local
+
+  g:towny_builder:
+    permissions:
+    - towny.wild.build.OAK_SAPLING
+    - towny.wild.destroy.OAK_SAPLING
+    - towny.wild.destroy.GOLD_ORE
+    - towny.wild.destroy.IRON_ORE
+    - towny.wild.destroy.COAL_ORE
+    - towny.wild.build.OAK_LOG
+    - towny.wild.destroy.OAK_LOG
+    - towny.wild.destroy.OAK_LEAVES
+    - towny.wild.destroy.LAPIS_ORE
+    - towny.wild.destroy.TALL_GRASS
+    - towny.wild.destroy.LEGACY_YELLOW_FLOWER
+    - towny.wild.destroy.LEGACY_RED_FLOWER
+    - towny.wild.destroy.BROWN_MUSHROOM
+    - towny.wild.destroy.RED_MUSHROOM
+    - towny.wild.destroy.TORCH
+    - towny.wild.destroy.DIAMOND_ORE
+    - towny.wild.destroy.REDSTONE_ORE
+    - towny.wild.destroy.LEGACY_GLOWING_REDSTONE_ORE
+    - towny.wild.destroy.SNOW
+    - towny.wild.destroy.CACTUS
+    - towny.wild.destroy.CLAY
+    - towny.wild.destroy.SUGAR_CANE
+    - towny.wild.destroy.PUMPKIN
+    - towny.wild.destroy.MELON
+    - towny.wild.destroy.VINE
+    - towny.wild.destroy.LILY_PAD
+    - towny.wild.destroy.NETHER_WART
+
+  g:towny_moderator:
+    permissions:
+    - towny.chat.mod
+    - towny.wild.switch.minecraft:wooden_door
+    - towny.wild.build.minecraft:SUGAR_CANE
+    - towny.wild.build.minecraft:PUMPKIN
+    - towny.wild.build.minecraft:MELON
+    - towny.wild.build.minecraft:LILY_PAD
+    - towny.wild.build.minecraft:NETHER_WART
+
+  g:towny_admin:
+    permissions:
+    - towny.admin
+    - -towny.wild.destroy.minecraft:END_PORTAL
+    - -towny.wild.destroy.minecraft:END_PORTAL_FRAME
+    - towny.chat.admin
+
+# Permission nodes for SuperVanish by MyzelYam 
+# https://www.spigotmc.org/resources/supervanish-be-invisible.1331/
+
+  g:vanish_moderator:
+    permissions:
+    - sv.use.1
+    - sv.toggleitems
+    - sv.login
+    - sv.logout
+    - sv.see.1
+    - sv.keepfly
+    - vanish.hooks.essentials.hide
+
+  g:vanish_admin:
+    permissions:
+    - sv.others
+    - sv.reload
+    - sv.list
+    - sv.recreatefiles
+    - sv.use.2
+    - sv.see.2
+    - sv.notoggle
+    
+  g:worldedit_builder:
+    permissions:
+    - worldedit.*

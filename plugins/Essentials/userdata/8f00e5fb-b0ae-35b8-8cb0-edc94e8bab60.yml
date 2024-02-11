@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 106.125.132.226
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1674200334808
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1684055520993
+  login: 1684055237423
+money: '0'
+last-account-name: hangez
+logoutlocation:
+  world: 5c460807-f2ae-4474-9e43-24b5f7700642
+  world-name: world
+  x: -33.76490922945987
+  y: 195.83584933584186
+  z: 52.28774525099817
+  yaw: -125.259765625
+  pitch: 2.250272035598755
+lastlocation:
+  world: 5c460807-f2ae-4474-9e43-24b5f7700642
+  world-name: world
+  x: 48.30000001192093
+  y: 154.0
+  z: 41.35202838518269
+  yaw: -82.6611328125
+  pitch: 8.99999713897705

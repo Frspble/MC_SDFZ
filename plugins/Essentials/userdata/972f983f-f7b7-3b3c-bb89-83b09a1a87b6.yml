@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 202.125.194.16
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1673965467881
+  login: 1673962602224
+money: '0'
+last-account-name: yeluobuzhiqiu
+logoutlocation:
+  world: 5c460807-f2ae-4474-9e43-24b5f7700642
+  world-name: world
+  x: -4.4370951130441
+  y: 232.11544428185363
+  z: 118.99823687869004
+  yaw: 25.05859375
+  pitch: 65.54965209960938

@@ -1,0 +1,8 @@
+&6你好, {PLAYER}&6, 欢迎回到&a内蒙古师范大学附属中学!
+&7当前在线人数:&c {ONLINE} &7- 世界时间:&c {WORLDTIME24}
+&a服务器贡献列表：
+&6项目发起 & 服主：&bFrspble
+&6游戏服务器赞助：&bhangez
+&6皮肤站服务器提供：&b叶落（yeluobuzhiqiu）
+&6建造者：&bFrspble&7、&bKeerqinfu&7、&bstarchen&7、&bjokershiisme&7、&bHazukimio&7、&bR3medy&7、&bstar_dust__&7、&baaady&7、&blqndwyy&7、&blzl66&7、&bhangez&7、&bQGeq&7、&bWRQ&7（按加入时间排序）
+&8服务器到期时间: 2024-02-14（有意赞助请联系服主 QQ: 2268882474）

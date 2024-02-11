@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 110.18.13.224
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1674999758447
+  login: 1674995672359
+money: '0'
+last-account-name: Hazukimio
+logoutlocation:
+  world: 5c460807-f2ae-4474-9e43-24b5f7700642
+  world-name: world
+  x: 36.56781444527937
+  y: 173.5
+  z: 202.69999998807907
+  yaw: 82.5830078125
+  pitch: 24.299575805664062

@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 1.181.155.82
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1680404405497
+  login: 1680404382772
+money: '0'
+last-account-name: Keerqinfu
+logoutlocation:
+  world: 5c460807-f2ae-4474-9e43-24b5f7700642
+  world-name: world
+  x: 43.69999998807907
+  y: 174.0
+  z: 34.11711753414782
+  yaw: 86.73406982421875
+  pitch: 19.950363159179688

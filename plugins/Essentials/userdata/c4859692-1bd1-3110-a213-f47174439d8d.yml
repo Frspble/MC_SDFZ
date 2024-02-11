@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 1.24.125.187
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1676017093696
+  login: 1676016983664
+money: '0'
+last-account-name: star_dust__
+logoutlocation:
+  world: 5c460807-f2ae-4474-9e43-24b5f7700642
+  world-name: world
+  x: 72.2317403312182
+  y: 177.4952008770059
+  z: 66.27238119040385
+  yaw: -91.44400024414062
+  pitch: 29.849267959594727

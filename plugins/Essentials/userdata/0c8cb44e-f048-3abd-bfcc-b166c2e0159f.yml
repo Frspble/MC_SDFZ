@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 39.154.3.106
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1675003706823
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1675336158296
+  login: 1675336111012
+money: '0'
+last-account-name: jokershiisme
+logoutlocation:
+  world: 5c460807-f2ae-4474-9e43-24b5f7700642
+  world-name: world
+  x: 41.392408298116436
+  y: 183.52719685385722
+  z: 64.06753902448678
+  yaw: 20.036346435546875
+  pitch: 39.75005340576172
+lastlocation:
+  world: 5c460807-f2ae-4474-9e43-24b5f7700642
+  world-name: world
+  x: 42.88259297041386
+  y: 173.0
+  z: 201.7793494399016
+  yaw: -44.943634033203125
+  pitch: 11.40001106262207

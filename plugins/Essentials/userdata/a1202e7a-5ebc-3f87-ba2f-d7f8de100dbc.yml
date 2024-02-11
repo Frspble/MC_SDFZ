@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 1.30.185.162
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1674205418995
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1676377594248
+  login: 1676369997467
+money: '0'
+last-account-name: R3medy
+logoutlocation:
+  world: 5c460807-f2ae-4474-9e43-24b5f7700642
+  world-name: world
+  x: 58.105320864254026
+  y: 204.0
+  z: 126.58726319742692
+  yaw: -90.72830200195312
+  pitch: 47.84955978393555
+lastlocation:
+  world: 5c460807-f2ae-4474-9e43-24b5f7700642
+  world-name: world
+  x: 26.32951248118544
+  y: 181.02932822561374
+  z: 127.85549386795985
+  yaw: -90.18136596679688
+  pitch: 32.699562072753906
