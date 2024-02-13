@@ -44,3 +44,11 @@ java -javaagent:authlib-injector-1.2.1.jar=https://wzs.minecraftlogin.org/api/yg
 ├── server.properties              # 服务器配置文件
 
 ```
+
+## 项目贡献人员
+
+- 项目发起 & 服主：Frspble
+- 游戏服务器赞助：hangez
+- 皮肤站服务器提供：叶落（yeluobuzhiqiu）
+- 建造者：Frspble、Keerqinfu、starchen、jokershiisme、Hazukimio、R3medy、star_dust__、aaady、lqndwyy、lzl66、hangez、QGeq、WRQ（按参与时间排序）
+
