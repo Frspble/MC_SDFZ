@@ -1,0 +1,11 @@
+Logging started at 2024-01-28T04:25:57.246795325Z
+[authlib-injector] [INFO] Version: 1.2.1
+[authlib-injector] [INFO] Authentication server: https://wzs.minecraftlogin.org/api/yggdrasil
+[authlib-injector] [INFO] Transformed [com.mojang.authlib.HttpAuthenticationService] with [ConcatenateURL Workaround]
+[authlib-injector] [INFO] Httpd is running on port 37987
+[authlib-injector] [INFO] Transformed [com.mojang.authlib.yggdrasil.YggdrasilEnvironment] with [Constant URL Transformer]
+[authlib-injector] [INFO] Transformed [com.mojang.authlib.yggdrasil.YggdrasilServicesKeyInfo] with [Yggdrasil Public Key Transformer]
+[authlib-injector] [INFO] Transformed [com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService] with [Texture Whitelist Transformer]
+[authlib-injector] [INFO] Transformed [net.minecraft.server.network.LoginListener] with [Username Character Check Transformer]
+[authlib-injector] [INFO] Transformed [net.minecraft.server.network.LoginListener] with [Paper Username Check Transformer]
+[authlib-injector] [INFO] Transformed [com.mojang.authlib.properties.Property] with [Yggdrasil Public Key Transformer]
